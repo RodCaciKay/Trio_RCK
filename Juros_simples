@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+
+float main()
+{
+    float c, i, n, J, F;
+    printf("digite seu capital inicial: ");
+    scanf("%f",&c);
+    printf("digite a taxa de juros: ");
+    scanf("%f",&i);
+    printf("digite o tempo de aplicacao: ");
+    scanf("%f",&n);
+    J = c * i * n;
+    printf("seu juros sera de: %f",J);
+    F = c *(1 + i * n);
+    printf("seu valor final sera de: %f", F);
+}
