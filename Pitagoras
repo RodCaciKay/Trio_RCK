@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+
+float main()
+{
+    float H,Z,C1,C2;
+    printf("digite o Cateto 1: ");
+    scanf("%f",&C1);
+    printf("digite o Cateto 2: ");
+    scanf("%f",&C2);
+    Z = pow(C1,2) + pow (C2,2);
+    H = sqrt(Z);
+    printf("sua hipotenusa e de: %f",H);
+}
